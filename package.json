@@ -1,0 +1,35 @@
+{
+	"name": "major-project",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node ./src/index.js",
+		"dev": "nodemon ./src/index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"bcrypt": "^5.1.0",
+		"child-process": "^1.0.2",
+		"colors": "^1.4.0",
+		"cors": "^2.8.5",
+		"crypto": "^1.0.1",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"fast-two-sms": "^3.0.0",
+		"jsonwebtoken": "^8.5.1",
+		"moment": "^2.29.4",
+		"mongoose": "^6.6.7",
+		"morgan": "^1.10.0",
+		"nodemon": "^2.0.20",
+		"razorpay": "^2.8.3",
+		"redis": "^3.1.2",
+		"twilio": "^3.83.0",
+		"util": "^0.12.5",
+		"uuid": "^9.0.0",
+		"winston": "^3.8.2",
+		"winston-timestamp-colorize": "^1.1.0"
+	}
+}
